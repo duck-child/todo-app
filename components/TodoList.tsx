@@ -68,7 +68,7 @@ export default function TodoList() {
           onChange={(e) => setInputValue(e.target.value)}
           onKeyPress={handleKeyPress}
           placeholder="What needs to be done?"
-          className="flex-1 px-6 py-4 rounded-2xl glass-effect text-gray-800 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500 dark:focus:ring-pink-500 transition-all"
+          className="flex-1 px-6 py-4 rounded-2xl glass-effect text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 dark:focus:ring-pink-500 transition-all"
         />
         <button
           onClick={addTodo}
@@ -115,8 +115,8 @@ export default function TodoList() {
               <span
                 className={`flex-1 text-lg transition-all ${
                   todo.completed
-                    ? 'text-gray-400 dark:text-gray-600 line-through'
-                    : 'text-gray-800 dark:text-white'
+                    ? 'text-gray-400 dark:text-gray-500 line-through'
+                    : 'text-gray-900 dark:text-white'
                 }`}
               >
                 {todo.text}
