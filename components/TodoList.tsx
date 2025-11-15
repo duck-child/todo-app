@@ -116,7 +116,7 @@ export default function TodoList() {
                 className={`flex-1 text-lg transition-all ${
                   todo.completed
                     ? 'text-gray-400 dark:text-gray-500 line-through'
-                    : 'text-gray-900 dark:text-white'
+                    : ''
                 }`}
               >
                 {todo.text}
