@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex justify-between items-center mb-8">
           <div className="flex items-center gap-4">
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 dark:from-purple-400 dark:via-pink-400 dark:to-blue-400 text-transparent bg-clip-text">
-              My Tasks
+              my tasks
             </h1>
           </div>
           <div className="flex items-center gap-4">

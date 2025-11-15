@@ -67,21 +67,21 @@ export default function TodoList() {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           onKeyPress={handleKeyPress}
-          placeholder="What needs to be done?"
+          placeholder="what needs to be done?"
           className="flex-1 px-6 py-4 rounded-2xl glass-effect text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 dark:focus:ring-pink-500 transition-all"
         />
         <button
           onClick={addTodo}
           className="px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold transition-all transform hover:scale-105 active:scale-95 shadow-lg"
         >
-          Add
+          add
         </button>
       </div>
 
       <div className="space-y-3">
         {todos.length === 0 ? (
           <div className="text-center py-12 text-gray-400 dark:text-gray-500">
-            <p className="text-lg">No tasks yet. Add one to get started!</p>
+            <p className="text-lg">no tasks yet. add one to get started!</p>
           </div>
         ) : (
           todos.map((todo) => (
