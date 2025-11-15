@@ -2,9 +2,9 @@ import { SignUp } from '@clerk/nextjs'
 
 export default function SignUpPage() {
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 text-gray-900 dark:text-white">
+    <div className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       <div className="w-full max-w-md">
-        <h1 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 dark:from-purple-400 dark:via-pink-400 dark:to-blue-400 text-transparent bg-clip-text">
+        <h1 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 text-transparent bg-clip-text">
           get started
         </h1>
         <SignUp 
@@ -13,6 +13,8 @@ export default function SignUpPage() {
               formButtonPrimary: 
                 'bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700',
               card: 'glass-effect shadow-2xl',
+              rootBox: 'mx-auto',
+              cardBox: 'shadow-none',
             }
           }}
         />
