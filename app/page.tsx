@@ -4,7 +4,7 @@ import ThemeToggle from '@/components/ThemeToggle'
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-4 md:p-8">
+    <main className="min-h-screen p-4 md:p-8 text-gray-900 dark:text-white">
       <div className="max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-8">
           <div className="flex items-center gap-4">
